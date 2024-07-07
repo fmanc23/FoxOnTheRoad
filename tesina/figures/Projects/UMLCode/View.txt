@@ -1,0 +1,98 @@
+@startuml
+
+package view {
+  interface IView {
+    +void retrieveLogic(ILogic logic);
+    +void createAndShowGUI();
+    +void startTimer();
+    +void stopTimer();
+    +void resetTimer();
+    +void generateMapImage(char[][] mapMatrix);
+    +void clearMap();
+    +BufferedImage getMapImage();
+    +void saveHS();
+    +void winPanel();
+  }
+
+  class View {
+    +void retrieveLogic(ILogic logic);
+    +void createAndShowGUI();
+    +void startTimer();
+    +void stopTimer();
+    +void resetTimer();
+    +void generateMapImage(char[][] mapMatrix);
+    +void clearMap();
+    +BufferedImage getMapImage();
+    +void saveHS();
+    +void winPanel();
+  }
+
+  class GameGUI {
+    +Image BLUETRUCKUP;
+    +OtherConstantImages;
+    +Image BLUETRUCKDOWN;
+    +OtherConstantImages;
+    +int[] MIDVEHICLEDIMENSIONS;
+    +OtherConstantArrays;
+    +Image FOXSTAYTEXTURE;
+    +OtherConstantsImages;
+    +void paintComponent(Graphics g);
+    +void triggerWin();
+    +void actionPerformed(ActionEvent e)
+  }
+
+  class GeneralGUI {
+    +int JFRAMEWIDTH;
+    +int JFRAMEHEIGHT;
+    +HighScoreGUI scoreWindow;
+    +HighScoreGUI getHSGUI();
+    +void keyTyped(KeyEvent e);
+    +void keyPressed(KeyEvent e);
+    +void keyReleased(KeyEvent e);
+  }
+
+  class HighScoreGUI {
+    +Font FONT;
+    +JLabel text;
+    +JButton buttonYes;
+    +JButton buttonNo;
+    +JTextArea nameArea;
+    +void setStyle();
+    +void saveHighScores();
+    +void loadSaveHighScore();
+    +void loadUserBest();
+    +void loadBest();
+    +void saveBest(String name);
+    +void setExitMenu();
+    +void actionPerformed(ActionEvent ae);
+  }
+
+  class MapGraphics {
+    +BufferedImage mapBufferedImage;
+    +void generateMapImage(char[][] mapMatrix);
+    +BufferedImage getMapImage();
+    +void clearMapImage();
+  }
+
+  class StatGUI {
+    +Font FONT;
+    +JLabel lvlStats;
+    +JLabel storicHS;
+    +JLabel presentHS;
+    +JLabel hp;
+    +JLabel coins;
+    +JLabel points;
+    +JButton startBut;
+    +int timeRemaining;
+    +Timer levelTimer;
+    +void setLabels();
+    +void setButton();
+    +void startTimer();
+    +void stopTimer();
+    +void resetTimer();
+    +void setTimer(int i);
+  }
+  
+  IView -0)- View
+
+@enduml

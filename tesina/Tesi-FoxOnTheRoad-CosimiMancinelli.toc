@@ -1,0 +1,16 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {chapter}{\numberline {1}Descrizione del Problema}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Il Videogioco Crossy Road}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}L'applicazione Fox On The Road}{3}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Specifica dei Requisiti}{5}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Progetto}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Architettura del Sistema Software}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Logic}{8}{section.3.2}%
+\contentsline {section}{\numberline {3.3}View}{12}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Utilities}{16}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Problemi Riscontrati}{17}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Conclusioni e sviluppi futuri}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Possibilità di estensione e personalizzazione}{19}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Sviluppi Futuri}{19}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Bibliografia}{20}{chapter.5}%

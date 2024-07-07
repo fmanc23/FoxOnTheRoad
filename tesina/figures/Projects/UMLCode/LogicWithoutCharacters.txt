@@ -1,0 +1,72 @@
+@startuml
+
+package logic {
+  interface ILogic {
+    +int getLevel()
+    +OtherGetMethods()
+    +boolean getIsPaused()
+    +void setLives()
+    +void setIsPaused(boolean newState)
+    +void setStoricHighScore(int newScore)
+  }
+  class Logic {
+    +int getLevel()
+    +OtherGetMethods()
+    +void setLives()
+    +void setIsPaused(boolean newState)
+    +void setStoricHighScore(int newScore)
+  }
+  class Statistics {
+    +int NUMBEROFLEVELS
+    +int levelPercentage
+    +OtherVariables
+    +boolean isPaused
+    +int getLevel()
+    +OtherGetMethods()
+    +void setPercentage()
+    +OtherSetMethods()
+  }
+  
+  class KeyHandler {
+    +void inputPressed(int input)
+    +void InputReleased(int input)
+  }
+  class StaticSoundController {
+    +void playStaticSound(String command)
+  }
+  class DynamicSoundController {
+    +Clip CLIPCARRERA
+    +OtherConstantClips
+    +Boolean carreraLock
+    +OtherBooleanLocks
+    +void playSound(String command)
+    +void stopSound(String command)
+  }
+  class Map {
+    +Char[][] mapMatrix
+    +Map(int level)
+    +void generateMapMatrix(Char[][] mapMatrixReference)
+    +LinkedList<int[]> getEntityCoordinates()
+    +OtherGetMethods()
+    +char[][] getMapMatrix()
+    +void setLevel(int newLevel)
+  }
+  class CollisionController {
+    +String VEHICLE
+    +String TREE
+    +OtherConstantStrings
+    +Boolean collisionRegistered
+    +LinkedList<Entity> entityList
+    +LinkedList<Entity> entiitiesWithSound
+    +int currentTime
+    +void checkCollision()
+    +void stopPlay()
+    +void dynamicSoundManager(Entity entityToCheck, boolean toPlay)
+    +void collisionType(Entity entityToCheck)
+    +void setCollisionRegistered(boolean newRegistration)
+    +void updateList()
+  }
+  package characters{}
+  ILogic -(0-Logic
+}
+@enduml

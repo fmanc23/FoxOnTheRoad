@@ -1,0 +1,54 @@
+@startuml
+
+package logic {
+  interface ILogic
+  class Statistics
+  class Logic
+  class KeyHandler
+  class StaticSoundController
+  class DynamicSoundController
+  class Map
+  class CollisionController
+  package characters{
+    class  Entity
+    class EntityGroup
+    class Vehicle
+    class Coin
+    class Rock
+    class Tree
+    class Fox
+    Entity == Vehicle
+    Entity == Coin
+    Entity == Rock
+    Entity == Tree
+  }
+  ILogic -(0-Logic
+}
+package view {
+  interface IView
+  class StatGUI
+  class View
+  class GeneralGUI
+  class GameGUI
+  class HighScoresGUI
+  class MapGraphics
+  IView -(0-View
+}
+package utilities {
+  interface IUtilities
+  class Utilities
+  class AudioPlayer
+  class Assets
+  class AbsolutePath
+  class ReadTextFile
+  class WriteTextFile
+  IUtilities -(0-Utilities
+}
+
+class Main
+
+ILogic->Main
+IView->Main
+IUtilities->Main
+
+@enduml

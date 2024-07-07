@@ -1,0 +1,95 @@
+@startuml
+package logic {
+  package characters {
+    class Entity{
+      +int[] coordinates
+      +int[] boundingBox
+      +String textureName
+      +Entity(int xAbs, int yAbs, int xBox, int yBox, String newTextureName)
+      +int getxAbs()
+      +OtherGetMethods()
+      +String getTextureName()
+      +Rectangle getBoundingBox()
+      +void setxAbs(int newxAbs)
+      +OtherSetMethods()
+    }
+    class EntityGroup{
+      +int[] SMALL_VEHICLE_DIMENSIONS
+      +int[] MID_VEHICLE_DIMENSIONS
+      +int[] BIG_VEHICLE_DIMENSIONS
+      +String PORSCHE_UP
+      +OtherConstantStrings
+      +String PORSCHE_DOWN
+      +OtherConstantStrings
+      +String[] VEHICLE_UP_ARRAY
+      +String[] VEHICLE_DOWN_ARRAY
+      +LinkedList<Entity> entityList
+      +LinkedList<Vehicle> vehicleList
+      +int oldRand
+      +int numberOfTrucks
+      +int countVehicles
+      +EntityGroup()
+      +void updateList()
+      +void generateEntityList()
+      +Vehicle generateRandom(int[] element)
+      +void fixVehiclesOverLap()
+      +LinkedList<Entity> getEntityList()
+      +LinkedList<Vehicle> getVehicleList()
+    }
+    class Vehicle {
+      +String TOUP
+      +OtherConstantStrings
+      +int speed
+      +Vehicle(int xAbs, int yAbs, int xBox, int yBox, String newTextureName, int speed)
+      +int getSpeed()
+      +int setSpeed(int newSpeed)
+      +void move()
+      +void centerVehicle
+    }
+    class Coin {
+      +Coin(int xAbs, int yAbs, int xBox, int yBox)
+    }
+    class Rock {
+      +Rock(int xAbs, int yAbs, int xBox, int yBox, int randomTextureNumber)
+    }
+    class Tree {
+      +Tree(int xAbs, int yAbs, int xBox, int yBox, int randomTextureNumber)
+      +Rectangle getBoundingBox()
+    }
+    class Fox {
+      +String STAYTEXTURE
+      +OtherConstantStrings
+      +int[][] coordinates
+      +int[] boundingBox
+      +String textureName
+      +int speed
+      +boolean up
+      +boolean down
+      +boolean right
+      +boolean left
+      +Timer resetTimer
+      +Fox(int xAbs, int yAbs, int xVis, int yVis, int xBox, int yBox, int newSpeed)
+      +void moveFox()
+      +void moveUp()
+      +void moveDown()
+      +void moveRight()
+      +void moveLeft()
+      +void stopFox()
+      +void killFox()
+      +int getxAbs()
+      +OtherGetMethods()
+      +String getTextureName()
+      +boolean getUp()
+      +OtherGetMethods()
+      +Rectangle getBoundingBox()
+      +Rectangle getSurroundingBox()
+      +void setxAbs(int newxAbs)
+      +OtherSetMethods() 
+    }
+    Entity == Vehicle
+    Entity == Coin
+    Entity == Rock
+    Entity == Tree
+  }
+}
+@enduml

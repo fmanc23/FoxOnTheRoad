@@ -1,0 +1,82 @@
+@startuml
+
+package utilities {
+
+  interface IUtilities {
+    +void retrieveLogicView(ILogic logic, IView view)
+    +String getElementsAssetsLocation(String assetName)
+    +String getIcon()
+    +String getLevelMapLocation(int levelNumber)
+    +String getLevelMapFolder()
+    +String getHighScoresFile()
+    +String getTexturesLocation(String assetName)
+    +String getAudioAssetsLocation(String assetName)
+    +void playFileLoop(String fileName)
+    +void playFile(String fileName)
+    +void releaseAudioResorces()
+    +Clip getClip(String fileName)
+    +List<String> readHighScores()
+    +char[][] readMap(int level)
+    +void writeHighScores(String name)
+  }
+  
+  class Utilities {
+    +void retrieveLogicView(ILogic logic, IView view)
+    +ILogic getLogic()
+    +IView getView()
+    +String getElementsAssetsLocation(String assetName)
+    +String getIcon()
+    +String getLevelMapLocation(int levelNumber)
+    +String getLevelMapFolder()
+    +String getHighScoresFile()
+    +String getTexturesLocation(String assetName)
+    +String getAudioAssetsLocation(String assetName)
+    +void playFileLoop(String fileName)
+    +void playFile(String fileName)
+    +void releaseAudioResorces()
+    +Clip getClip(String fileName)
+    +List<String> readHighScores()
+    +char[][] readMap(int level)
+    +void writeHighScores(String name)
+  }
+  
+  class AbsolutePath {
+    +String THISFOLDER
+    +String getAbsolutePath()
+  }
+  
+  class Assets {
+    +String assetPath
+    +String getElementsAssetsLocation(String assetName)
+    +String getIcon()
+    +String getLevelMapLocation(int levelNumber)
+    +String getHighScoresFile()
+    +String getTexturesLocation(String assetName)
+    +String getAudioAssetsLocation(String assetName)
+  }
+  
+  class AudioPlayer {
+    +String ERROR
+    +String ATT
+    +Clip clip
+    +DataLine.Info info
+    +void playFileLoop(String fileName)
+    +void playFile(String fileName)
+    +Clip getClip(String fileName)
+    +void releaseAudioResources()
+  }
+  
+  class ReadTextFile {
+    +String ATT
+    +List<String> readHighScores()
+    +char[][] readMap(int level)
+  }
+  
+  class WriteTextFile {
+    +void writeHighScores(String name)
+  }
+  
+  IUtilities -(0- Utilities
+}
+
+@enduml

@@ -1,0 +1,547 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.12.3)  16 DEC 2022 15:23
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/Tommaso/OneDrive - Università degli Studi di Perugia/Materie/A2 S2/Programmazione di Interfacce Grafiche e Dispositivi Mobili/ProgettoEsame/Scratch/Tesina/Current/Tesi-FoxOnTheRoad-CosimiMancinelli.tex"
+(c:/Users/Tommaso/OneDrive - Università degli Studi di Perugia/Materie/A2 S2/Programmazione di Interfacce Grafiche e Dispositivi Mobili/ProgettoEsame/Scratch/Tesina/Current/Tesi-FoxOnTheRoad-CosimiMancinelli.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2022-11-02> (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2022/07/02 v1.4n Standard LaTeX document class
+(C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2022/11/30 3.83 The Babel package
+\babel@savecnt=\count194
+\U@D=\dimen141
+\l@unhyphenated=\language79
+ (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count195
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/babel-italian\italian.ldf
+Language: italian 2022/03/27 v.1.4.07 Italian support for the babel system
+\it@lettering=\count196
+\it@doublequoteactive=\count197
+\it@ISOcompliance=\count198
+)) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/it\babel-italian.tex
+Package babel Info: Importing font and identification data for italian
+(babel)             from babel-it.ini. Reported on input line 11.
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count199
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count266
+\Gm@cntv=\count267
+\c@Gm@tempcnt=\count268
+\Gm@bindingoffset=\dimen142
+\Gm@wd@mp=\dimen143
+\Gm@odd@mp=\dimen144
+\Gm@even@mp=\dimen145
+\Gm@layoutwidth=\dimen146
+\Gm@layoutheight=\dimen147
+\Gm@layouthoffset=\dimen148
+\Gm@layoutvoffset=\dimen149
+\Gm@dimlist=\toks17
+ (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2022-11-13 v7.00u Hypertext links for LaTeX
+ (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+ (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count269
+)
+\@linkdim=\dimen152
+\Hy@linkcounter=\count270
+\Hy@pagecounter=\count271
+ (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count272
+ (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4410.
+\c@Hy@tempcnt=\count273
+ (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4748.
+\XeTeXLinkMargin=\dimen153
+ (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count274
+\Field@Width=\dimen154
+\Fld@charsize=\dimen155
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+ (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count275
+\c@Item=\count276
+\c@Hfootnote=\count277
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2022-11-13 v7.00u Hyperref driver for pdfTeX
+ (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count278
+\c@bookmark@seq@number=\count279
+ (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip50
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+ (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+ (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen156
+\captionmargin=\dimen157
+\caption@leftmargin=\dimen158
+\caption@rightmargin=\dimen159
+\caption@width=\dimen160
+\caption@indent=\dimen161
+\caption@parindent=\dimen162
+\caption@hangindent=\dimen163
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count280
+\c@continuedfloat=\count281
+Package caption Info: hyperref package is loaded.
+)
+\c@subfigure=\count282
+\c@subtable=\count283
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/tocbibind\tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box51
+\beforetitleunit=\skip51
+\aftertitleunit=\skip52
+\ttl@plus=\dimen164
+\ttl@minus=\dimen165
+\ttl@toksa=\toks20
+\titlewidth=\dimen166
+\titlewidthlast=\dimen167
+\titlewidthfirst=\dimen168
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count284
+\float@exts=\toks21
+\float@box=\box52
+\@float@everytoks=\toks22
+\@floatcapt=\box53
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count285
+\l__pdf_internal_box=\box54
+) (Tesi-FoxOnTheRoad-CosimiMancinelli.aux
+
+LaTeX Warning: Label `fig:HSGUILoad' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:HSGUILoad' multiply defined.
+
+
+LaTeX Warning: Label `se:arch.model' multiply defined.
+
+)
+\openout1 = `Tesi-FoxOnTheRoad-CosimiMancinelli.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Info: Redefining \it@ocap on input line 32.
+LaTeX Info: Redefining \it@ccap on input line 32.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=591.5302pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=-7.86334pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count286
+\scratchdimen=\dimen169
+\scratchbox=\box55
+\nofMPsegments=\count287
+\nofMParguments=\count288
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count289
+\MPscratchDim=\dimen170
+\MPnumerator=\count290
+\makeMPintoPDFobject=\count291
+\everyMPtoPDFconversion=\toks24
+) (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring OFF on input line 32.
+ (Tesi-FoxOnTheRoad-CosimiMancinelli.out) (Tesi-FoxOnTheRoad-CosimiMancinelli.out)
+\@outlinefile=\write3
+\openout3 = `Tesi-FoxOnTheRoad-CosimiMancinelli.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<figures//logo-unipg.png, id=59, 523.7166pt x 255.5949pt>
+File: figures//logo-unipg.png Graphic file (type png)
+<use figures//logo-unipg.png>
+Package pdftex.def Info: figures//logo-unipg.png  used on input line 43.
+(pdftex.def)             Requested size: 154.00742pt x 75.16193pt.
+<figures//FoxOnTheRoad_Logo.png, id=61, 513.92pt x 513.92pt>
+File: figures//FoxOnTheRoad_Logo.png Graphic file (type png)
+<use figures//FoxOnTheRoad_Logo.png>
+Package pdftex.def Info: figures//FoxOnTheRoad_Logo.png  used on input line 66.
+(pdftex.def)             Requested size: 181.18439pt x 181.18427pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 76.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 76.
+
+Overfull \hbox (11.16205pt too wide) in paragraph at lines 76--80
+ [][] 
+ []
+
+[1
+
+
+{C:/Users/Tommaso/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./figures//logo-unipg.png> <./figures//FoxOnTheRoad_Logo.png>] (Tesi-FoxOnTheRoad-CosimiMancinelli.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 4.
+)
+\tf@toc=\write4
+\openout4 = `Tesi-FoxOnTheRoad-CosimiMancinelli.toc'.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.109 \chapter
+              {Descrizione del Problema}\label{ch:despro} [1
+
+
+]
+Capitolo 1.
+[2
+
+]
+<figures//snapshot_road.png, id=110, 1084.05pt x 2348.775pt>
+File: figures//snapshot_road.png Graphic file (type png)
+<use figures//snapshot_road.png>
+Package pdftex.def Info: figures//snapshot_road.png  used on input line 142.
+(pdftex.def)             Requested size: 127.15161pt x 275.46143pt.
+<figures//snapshot_river.png, id=111, 1084.05pt x 2348.775pt>
+File: figures//snapshot_river.png Graphic file (type png)
+<use figures//snapshot_river.png>
+Package pdftex.def Info: figures//snapshot_river.png  used on input line 149.
+(pdftex.def)             Requested size: 127.15161pt x 275.46143pt.
+<figures//snapshot_coin.png, id=112, 1084.05pt x 2348.775pt>
+File: figures//snapshot_coin.png Graphic file (type png)
+<use figures//snapshot_coin.png>
+Package pdftex.def Info: figures//snapshot_coin.png  used on input line 156.
+(pdftex.def)             Requested size: 127.15161pt x 275.46143pt.
+ [3 <./figures//snapshot_road.png> <./figures//snapshot_river.png> <./figures//snapshot_coin.png>]
+<figures//GeneralGUI.png, id=118, 1045.506pt x 560.99588pt>
+File: figures//GeneralGUI.png Graphic file (type png)
+<use figures//GeneralGUI.png>
+Package pdftex.def Info: figures//GeneralGUI.png  used on input line 188.
+(pdftex.def)             Requested size: 418.25368pt x 223.68079pt.
+ [4 <./figures//GeneralGUI.png>]
+Capitolo 2.
+[5
+
+] [6]
+Capitolo 3.
+<figures//Generale.pdf, id=154, 1248.91594pt x 389.95688pt>
+File: figures//Generale.pdf Graphic file (type pdf)
+<use figures//Generale.pdf>
+Package pdftex.def Info: figures//Generale.pdf  used on input line 254.
+(pdftex.def)             Requested size: 418.25368pt x 130.59024pt.
+[7
+
+ <./figures//Generale.pdf>]
+<figures//LogicWithoutCharacters.pdf, id=181, 1239.12938pt x 423.08063pt>
+File: figures//LogicWithoutCharacters.pdf Graphic file (type pdf)
+<use figures//LogicWithoutCharacters.pdf>
+Package pdftex.def Info: figures//LogicWithoutCharacters.pdf  used on input line 278.
+(pdftex.def)             Requested size: 418.25368pt x 142.79968pt.
+ [8 <./figures//LogicWithoutCharacters.pdf>] [9]
+<figures//Characters.pdf, id=212, 1653.17625pt x 657.2053pt>
+File: figures//Characters.pdf Graphic file (type pdf)
+<use figures//Characters.pdf>
+Package pdftex.def Info: figures//Characters.pdf  used on input line 324.
+(pdftex.def)             Requested size: 418.25368pt x 166.26643pt.
+ [10 <./figures//Characters.pdf>] [11]
+<figures//View.pdf, id=236, 1014.79124pt x 521.69907pt>
+File: figures//View.pdf Graphic file (type pdf)
+<use figures//View.pdf>
+Package pdftex.def Info: figures//View.pdf  used on input line 380.
+(pdftex.def)             Requested size: 418.25368pt x 215.02042pt.
+File: figures//GeneralGUI.png Graphic file (type png)
+<use figures//GeneralGUI.png>
+Package pdftex.def Info: figures//GeneralGUI.png  used on input line 391.
+(pdftex.def)             Requested size: 418.25368pt x 223.68079pt.
+ [12 <./figures//View.pdf>]
+<figures//GameGUI.png, id=264, 1045.506pt x 560.99588pt>
+File: figures//GameGUI.png Graphic file (type png)
+<use figures//GameGUI.png>
+Package pdftex.def Info: figures//GameGUI.png  used on input line 401.
+(pdftex.def)             Requested size: 418.25368pt x 223.68079pt.
+ [13]
+<figures//StatGUI.png, id=272, 1045.506pt x 560.99588pt>
+File: figures//StatGUI.png Graphic file (type png)
+<use figures//StatGUI.png>
+Package pdftex.def Info: figures//StatGUI.png  used on input line 411.
+(pdftex.def)             Requested size: 418.25368pt x 223.68079pt.
+ [14 <./figures//GameGUI.png>]
+<figures//HSGUI_Load.png, id=281, 1045.506pt x 560.99588pt>
+File: figures//HSGUI_Load.png Graphic file (type png)
+<use figures//HSGUI_Load.png>
+Package pdftex.def Info: figures//HSGUI_Load.png  used on input line 422.
+(pdftex.def)             Requested size: 209.12683pt x 111.83614pt.
+<figures//HSGUI_Name.png, id=283, 1045.506pt x 560.99588pt>
+File: figures//HSGUI_Name.png Graphic file (type png)
+<use figures//HSGUI_Name.png>
+Package pdftex.def Info: figures//HSGUI_Name.png  used on input line 428.
+(pdftex.def)             Requested size: 209.12683pt x 111.83614pt.
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 420--432
+[][] [] 
+ []
+
+[15 <./figures//StatGUI.png> <./figures//HSGUI_Load.png> <./figures//HSGUI_Name.png>]
+<figures//Utilities.pdf, id=297, 1096.84781pt x 557.83406pt>
+File: figures//Utilities.pdf Graphic file (type pdf)
+<use figures//Utilities.pdf>
+Package pdftex.def Info: figures//Utilities.pdf  used on input line 452.
+(pdftex.def)             Requested size: 418.25368pt x 212.71115pt.
+ [16 <./figures//Utilities.pdf>] [17] [18]
+Capitolo 4.
+(Tesi-FoxOnTheRoad-CosimiMancinelli.bbl [19
+
+]
+Capitolo 5.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6.
+(C:\Users\Tommaso\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)) [20
+
+] (Tesi-FoxOnTheRoad-CosimiMancinelli.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `Tesi-FoxOnTheRoad-CosimiMancinelli.out' has not changed.
+(rerunfilecheck)             Checksum: F5B0A85E7D94112A6F8BC09C6B0F70B2;2188.
+ ) 
+Here is how much of TeX's memory you used:
+ 12390 strings out of 475281
+ 207096 string characters out of 2773121
+ 569735 words of memory out of 3000000
+ 33638 multiletter control sequences out of 15000+600000
+ 482644 words of font info for 54 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 72i,10n,77p,753b,645s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\Tommaso\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\Tommaso\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Tommaso\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Tommaso\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Tommaso\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Tommaso\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Tommaso\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\Tommaso\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\Users\Tommaso\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\Tommaso\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Tommaso\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk>
+Output written on Tesi-FoxOnTheRoad-CosimiMancinelli.pdf (21 pages, 5023205 bytes).
+PDF statistics:
+ 800 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
+ 224 words of extra memory for PDF output out of 10000 (max. 10000000)
+
