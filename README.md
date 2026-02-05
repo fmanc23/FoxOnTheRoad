@@ -1,171 +1,100 @@
-🦊 Fox On The Road
-Applicazione Desktop JFC/Swing – Progetto Universitario
-Corso di Programmazione di Interfacce Grafiche e Dispositivi Mobili
-A.A. 2021/2022 – Università degli Studi di Perugia
+# 🦊 FoxOnTheRoad
 
-📌 Descrizione del Progetto
-Fox On The Road è un videogioco desktop sviluppato in Java utilizzando JFC/Swing, ispirato al celebre gioco mobile Crossy Road.
-L’obiettivo è guidare una volpe attraverso una serie di livelli pieni di ostacoli statici e dinamici, evitando collisioni e raccogliendo monete per aumentare le vite disponibili.
+A 2D level-based arcade game built in Java where the player controls a fox navigating through busy roads, developed as part of the **GUI Programming and Mobile Devices** course.
 
-Il progetto è stato pensato per essere:
+---
 
-Multipiattaforma (testato su Windows e sistemi NIX-like)
+## 📖 About
 
-Espandibile (nuovi livelli aggiungibili tramite file di testo)
+**FoxOnTheRoad** is a multi-level arcade game inspired by the classic road-crossing genre. The player guides a fox across increasingly challenging roads filled with obstacles and traffic. The game features a **camera system that follows the character**, smooth level progression, and escalating difficulty.
 
-Modulare (architettura Logic–View–Utilities)
+---
 
-🎮 Caratteristiche Principali
-Controlli tramite WASD o frecce direzionali
+## 🎮 Gameplay
 
-Sistema di livelli progressivi + tutorial iniziale
+- 🦊 Control a fox character trying to cross multiple roads
+- 🚗 Avoid traffic and obstacles to survive
+- 📈 Progress through levels with increasing difficulty
+- 🎥 Dynamic camera that follows the player character
+- 🏆 Level-based structure with distinct challenges
 
-Timer di livello con possibilità di pausa
+---
 
-Ostacoli statici (alberi, rocce) e dinamici (auto, camion)
+## 🎓 Academic Context
 
-Collisioni con gestione delle conseguenze
+| | |
+|---|---|
+| **Course** | GUI Programming and Mobile Devices |
+| **Degree** | BSc in Computer and Electronic Engineering |
+| **University** | University of Perugia (UNIPG) |
+| **Year** | 2020 – 2023 |
 
-Monete che aumentano le vite
+### Learning Objectives
 
-Texture animate per personaggio e veicoli
+- Designing and implementing **graphical user interfaces** in Java
+- Working with **game loops**, rendering, and real-time input handling
+- Implementing a **scrolling camera system** that tracks the player
+- Managing **game states** (menu, playing, game over, level transitions)
+- Applying **object-oriented design patterns** to game architecture (entities, levels, collision detection)
 
-Suoni statici e dinamici
+---
 
-High Score salvati su file CSV
+## 🛠️ Tech Stack
 
-Mappa generata da file di testo con texture casuali
+| Technology | Usage |
+|---|---|
+| **Java** | Core language |
+| **Java Swing / AWT** | Graphics rendering and input handling |
 
-Movimento fluido grazie a un refresh grafico a 62.5 FPS
+---
 
-🧱 Architettura del Software
-Il progetto segue una struttura Logic–View–Utilities, con comunicazione tramite interfacce e dependency injection.
+## 🚀 Getting Started
 
-📂 Logic
-Gestisce tutta la logica del gioco:
+### Prerequisites
 
-Movimento della volpe
+- Java JDK 8 or higher
 
-Gestione livelli e statistiche
+### Run
 
-Collisioni
+```bash
+git clone https://github.com/fmanc23/FoxOnTheRoad.git
+cd FoxOnTheRoad
+javac *.java
+java Main
+```
 
-Generazione della mappa logica
+> ⚠️ Adjust the main class name if different. Check the source files for the correct entry point.
 
-Gestione dei suoni dinamici e statici
+---
 
-Input da tastiera
+## 🏗️ Architecture
 
-Include il sotto-package Characters, che contiene:
-
-Fox
-
-Vehicle
-
-Tree
-
-Rock
-
-Coin
-
-EntityGroup
-
-🎨 View
-Gestisce la parte grafica:
-
-GeneralGUI (finestra principale)
-
-GameGUI (rendering del gioco)
-
-StatGUI (statistiche e timer)
-
-HighScoreGUI (gestione punteggi)
-
-MapGraphics (generazione grafica della mappa)
-
-🛠 Utilities
-Funzioni di supporto:
-
-Gestione path e asset
-
-Lettura/scrittura file CSV e TXT
-
-Riproduzione audio WAV
-
-Caricamento mappe
-
-🗺 Struttura dei Livelli
-Ogni livello è definito da un file di testo di 10 righe, contenente:
-
-Posizione degli ostacoli
-
-Posizione delle monete
-
-Tipologia di terreno
-
-Entità dinamiche
-
-Questo permette di aggiungere nuovi livelli senza modificare il codice.
-
-🚀 Come Avviare il Gioco
-Clona il repository:
-
-bash
-git clone https://github.com/tuo-username/fox-on-the-road.git
-Importa il progetto in un IDE Java (IntelliJ, Eclipse, NetBeans…)
-
-Assicurati di avere Java 8+
-
-Esegui la classe:
-
-Codice
-src/utilities/Main.java
-📁 Struttura del Repository
-Codice
+```
 FoxOnTheRoad/
-│
 ├── src/
-│   ├── logic/
-│   ├── view/
-│   ├── utilities/
-│   └── Main.java
-│
-├── Assets/
-│   ├── Textures/
-│   ├── Audio/
-│   └── Misc/
-│
-├── Levels/
-│   └── levelX.txt
-│
+│   ├── ...           # Game engine (loop, rendering, camera)
+│   ├── ...           # Entities (fox, obstacles, vehicles)
+│   ├── ...           # Level management and progression
+│   └── ...           # Input handling and collision detection
+├── assets/           # Sprites, textures, audio (if any)
 └── README.md
-🧪 Problemi Risolti Durante lo Sviluppo
-Concorrenza nella gestione delle liste di entità
+```
 
-Sovrapposizione dei veicoli generati casualmente
+### Core Components
 
-Collisioni tra volpe e ostacoli statici
+- **Game Loop**: fixed-timestep update cycle for consistent gameplay
+- **Camera System**: viewport that tracks the fox's position across the level
+- **Level Manager**: handles level loading, difficulty scaling, and transitions
+- **Collision Detection**: determines interactions between the fox and obstacles
 
-Fluidità del movimento e animazioni
+---
 
-Gestione dei pannelli dinamici (HighScoreGUI)
+## 📸 Screenshots
 
-Composizione della mappa tramite BufferedImage
+> _Coming soon — screenshots and gameplay GIFs will be added here._
 
-🔮 Sviluppi Futuri
-Nuove tipologie di ostacoli e veicoli
+---
 
-Power-up e abilità speciali
+## 📜 License
 
-Modalità endless
-
-Sistema di punteggi online
-
-Miglioramento del sound design
-
-Porting su JavaFX o motori grafici più moderni
-
-👥 Autori
-Francesco Mancinelli – 329118
-
-Tommaso Cosimi – 329956
+Academic project — University of Perugia (UNIPG).
